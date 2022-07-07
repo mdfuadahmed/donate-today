@@ -78,6 +78,7 @@ hr{
     background-color: #FFF4D6;
 }
 #get-updates{
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 .email-subscription{
@@ -98,4 +99,22 @@ footer h2{
 }
 footer p{
     color: white;
+}
+
+
+/* bonus section (What we do section's) css code */
+
+span{
+    color: #FF5959;
+}
+.we-do-row{
+    display: flex;
+    padding-top: 25px;
+}
+.we-do-item{
+    width: 25%;
+}
+.we-do-item img{
+    width: 50%;
+    height: 100px;
 }
