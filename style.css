@@ -1,1 +1,77 @@
-# donate-today
+body{
+    margin: 0;
+}
+#top-section{
+    background-image: url(images/donation5.jpg);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.center-align{
+    text-align: center;
+}
+#top-section h1{
+    color: white;
+    font-size: 55px;
+    
+}
+#top-section p{
+    color: white;
+}
+.tomato-button{
+    background-color: #FF5959;
+    padding: 10px 40px;
+    color: white;
+    border:none;
+    border-radius: 5px;
+}
+#amount-section{
+    padding-top: 50px;
+}
+.black-heading{
+    font-size: 40px;
+
+}
+.flex-container{
+    display: flex;
+    padding: 0px 120px;
+    text-align: center;
+}
+.flex-container h3{
+    width: 20%;
+    padding: 50px;
+}
+.highlight-amount{
+    border: 3px solid #FF5959;
+    background-color: #ff595913;
+}
+.amount-input{
+    display: block;
+    margin: auto;
+    border: none;
+}
+hr{
+    width: 70%;
+}
+#donate-plan{
+    padding-top: 70px;
+}
+.donation-type{
+    display: flex;
+    padding: 3% 7%;
+}
+.donation-box{
+    margin-right: 25px;
+    padding: 50px 20px;
+}
+.food-donate{
+    background-color: #4f9da647;
+}
+.shelter{
+    background-color: #ff59593a;
+}
+.child-education{
+    background-color: #FFF4D6;
+}
